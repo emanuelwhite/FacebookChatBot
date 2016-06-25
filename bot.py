@@ -78,7 +78,3 @@ def send_message():
 
         #Wait time before sending another message IN SECONDS!
         time.sleep( 1 )
-
-
-while True:
-    send_message()
