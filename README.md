@@ -27,4 +27,7 @@
   
   <p>If you want some custom messages just edit the variable <b>your_message</b>
   
+  Now, in order to run it open the terminal and run the following command:
+  <b>sudo python3.5 bot.py</b>
+  
   That's all! 
