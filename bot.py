@@ -60,8 +60,6 @@ def send_message():
 
         #Composing message
         your_message = "Este ora " + str(t_ore) + " și " + str(t_minute) + " minute " + "si " + str(t_secunde) + " secunde"
-        #Setting up the driver, I'm using Chrome, not sure if it will work on Firefox
-
 
         #Entering the message
         #Setting path to the textbox
