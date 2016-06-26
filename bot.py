@@ -129,7 +129,7 @@ else:
 a = 1
 while a <= int(reciever_runtime):
     a = a+1
-    send_message(int(reciever_sleeptime), a)
+    send_message(float(reciever_sleeptime), a)
 
     #I put this here so that the time can update after each message
     print ("________________________________________________")
