@@ -1,5 +1,5 @@
 # FacebookChatBot
-  Simple Facebook Bot that will spam the time to your friends
+  Simple Facebook Bot that send specific messages to your friends
   
 ##Setting it up
   You need Python3.5 in order to run this script. After you installed Python3.5 stay with me, I'm gonn' explain below how this works.
