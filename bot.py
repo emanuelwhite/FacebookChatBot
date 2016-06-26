@@ -14,12 +14,6 @@ a = 0
 login_email = "" #Your facebook email
 login_password = "" #Your facebook password
 
-# #Sending details
-# reciever_url       = input("Enter the reciever url: ")
-# reciever_name      = input("Enter the reciever name: ")
-# reciever_runtime   = input("How many times do you want to run this?: ")
-# reciever_sleeptime = input("How long do you want the pause between the messages to be?: ")
-
 print(" 1. Count up to specific number | 2. Spam the time" )
 reciever_option    = input("What do you want to do?: ")
 
