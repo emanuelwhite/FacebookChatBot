@@ -14,13 +14,31 @@ a = 0
 login_email = "" #Your facebook email
 login_password = "" #Your facebook password
 
-#Sending details
-reciever_url       = input("Enter the reciever url: ")
-reciever_name      = input("Enter the reciever name: ")
-reciever_runtime   = input("How many times do you want to run this?: ")
-reciever_sleeptime = input("How long do you want the pause between the messages to be?: ")
-print(" 1. Count up to "+ str(reciever_runtime) + " | " " 2. Spam the time")
+# #Sending details
+# reciever_url       = input("Enter the reciever url: ")
+# reciever_name      = input("Enter the reciever name: ")
+# reciever_runtime   = input("How many times do you want to run this?: ")
+# reciever_sleeptime = input("How long do you want the pause between the messages to be?: ")
+
+print(" 1. Count up to specific number | 2. Spam the time" )
 reciever_option    = input("What do you want to do?: ")
+
+if int(reciever_option) == 1:
+    reciever_url = input("Enter the reciever url: ")
+    reciever_name = input("Enter the reciever name: ")
+    reciever_runtime   = input("How many times do you want to run this?: ")
+    reciever_sleeptime = input("How long do you want the pause between the messages to be?: ")
+    reciever_option_chosed = 1
+
+elif int(reciever_option) == 2:
+    reciever_url = input("Enter the reciever url: ")
+    reciever_name = input("Enter the reciever name: ")
+    reciever_runtime   = input("How many times do you want to run this?: ")
+    reciever_sleeptime = input("How long do you want the pause between the messages to be?: ")
+    reciever_option_chosed = 2
+else:
+    print("Your option doesn't exsit")
+
 
 # If conditions to test if theres enough data to run the bot
 #Check email
@@ -151,12 +169,11 @@ fb_actual_loggin()
 
 
 #Do stuff based on the user option
-if int(reciever_option) == 1:
+if int(reciever_option_chosed) == 1:
     infinite_count()
 
-elif int(reciever_option) == 2:
-     spam_time()
-
+elif int(reciever_option_chosed) == 2:
+    spam_time()
 else:
     print ("Your option doesn't exist")
 
